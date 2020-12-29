@@ -86,7 +86,7 @@ GameObject:
   - component: {fileID: 9154411478315043854}
   - component: {fileID: 9154411478315043855}
   m_Layer: 0
-  m_Name: obj_glitchGarden_treeL
+  m_Name: Foreground Tree Left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -270,7 +270,7 @@ GameObject:
   - component: {fileID: 9154411479269088829}
   - component: {fileID: 9154411479269088818}
   m_Layer: 0
-  m_Name: obj_glitchGarden_treeR
+  m_Name: Foreground Tree Right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
