@@ -93,6 +93,7 @@ GameObject:
   - component: {fileID: 3516314145461520351}
   - component: {fileID: 3516314145461520350}
   - component: {fileID: -7195804333114068855}
+  - component: {fileID: 1162121702372146430}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -147,7 +148,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8c020c978da744387426cd0ce6c8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 100
+--- !u!114 &1162121702372146430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516314145461520348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c80617c4b33407a499bfa0e38ced6595, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  starPrefab: {fileID: 686590177699891263, guid: f6d99c900662d5940845c867dc92fbcb, type: 3}
+  spawnWaitTime: 5
 --- !u!1 &3516314145683398890
 GameObject:
   m_ObjectHideFlags: 0
