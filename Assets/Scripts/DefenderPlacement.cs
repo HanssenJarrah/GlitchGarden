@@ -4,13 +4,18 @@ using UnityEngine;
 
 public class DefenderPlacement : MonoBehaviour
 {
-    [SerializeField] GameObject defender;
+    Defender defender;
 
     private void OnMouseUp()
     {
         Vector2 clickWorldPos = GetPosClicked();
         Vector2 placementPos = SnapToGrid(clickWorldPos);
         PlaceDefender(placementPos);
+    }
+
+    public void SetSelectedDefender(Defender selectedDefender)
+    {
+        defender = selectedDefender;
     }
 
     private Vector2 GetPosClicked()
@@ -29,6 +34,6 @@ public class DefenderPlacement : MonoBehaviour
 
     private void PlaceDefender(Vector2 atPosition)
     {
-        GameObject newDefender = Instantiate(defender, atPosition, Quaternion.identity);
+        Defender newDefender = Instantiate(defender, atPosition, Quaternion.identity);
     }
 }

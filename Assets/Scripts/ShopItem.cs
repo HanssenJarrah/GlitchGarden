@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class ShopItem : MonoBehaviour
 {
-    Color unselectedItemColour = new Color32(200, 200, 200, 255);
+    [SerializeField] Defender defenderPrefab;
+
+    Color unselectedItemColour = new Color32(150, 150, 150, 255);
 
     private void OnMouseUp()
     {
@@ -13,6 +15,9 @@ public class ShopItem : MonoBehaviour
         {
             item.GetComponent<SpriteRenderer>().color = unselectedItemColour;
         }
+
         GetComponent<SpriteRenderer>().color = Color.white;
+
+        FindObjectOfType<DefenderPlacement>().SetSelectedDefender(defenderPrefab);
     }
 }
