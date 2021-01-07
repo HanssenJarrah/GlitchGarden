@@ -10,11 +10,11 @@ public class Star : MonoBehaviour
     int starsToAdd = 50;
     Vector2 targetPos;
     Vector2 finalTargetPos = new Vector2(9.94f, 5.93f);
-    BoxCollider2D colliderComponent;
+    Collider colliderComponent;
     
     private void Start()
     {
-        colliderComponent = GetComponent<BoxCollider2D>();
+        colliderComponent = GetComponent<BoxCollider>();
         colliderComponent.enabled = false;
 
         float xPos = Random.Range(3f, 9f);
