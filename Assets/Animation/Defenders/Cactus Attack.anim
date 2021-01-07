@@ -301,7 +301,7 @@ AnimationClip:
     - time: 4.5625
       value: {fileID: -8861606884115347523, guid: ca6a46fc22375ed46a615720a7fd17d5, type: 3}
     attribute: m_Sprite
-    path: 
+    path: Cactus Body
     classID: 212
     script: {fileID: 0}
   m_SampleRate: 16
@@ -319,7 +319,7 @@ AnimationClip:
       customType: 4
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 0
+      path: 4278540080
       attribute: 0
       script: {fileID: 0}
       typeID: 212

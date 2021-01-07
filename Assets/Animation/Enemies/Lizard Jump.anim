@@ -70,7 +70,7 @@ AnimationClip:
     - time: 1.5
       value: {fileID: 3102913591677386589, guid: 2ec848a0f7b22f44a98eb615148ce3d8, type: 3}
     attribute: m_Sprite
-    path: 
+    path: Lizard Body
     classID: 212
     script: {fileID: 0}
   m_SampleRate: 16
@@ -81,7 +81,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 0
+      path: 2422613194
       attribute: 0
       script: {fileID: 0}
       typeID: 212

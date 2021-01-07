@@ -6,7 +6,7 @@ public class ShopItem : MonoBehaviour
 {
     [SerializeField] Defender defenderPrefab;
 
-    Color unselectedItemColour = new Color32(150, 150, 150, 255);
+    Color unselectedItemColour = new Color32(100, 100, 100, 255);
 
     private void OnMouseUp()
     {
