@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Star : MonoBehaviour
 {
@@ -8,10 +9,13 @@ public class Star : MonoBehaviour
     float speed = 10f;
     int starsToAdd = 50;
     Vector2 targetPos;
+    Vector2 finalTargetPos = new Vector2(9.94f, 5.93f);
+    BoxCollider2D colliderComponent;
     
     private void Start()
     {
-        GetComponent<BoxCollider2D>().enabled = false;
+        colliderComponent = GetComponent<BoxCollider2D>();
+        colliderComponent.enabled = false;
 
         float xPos = Random.Range(3f, 9f);
         float yPos = Random.Range(1f, 5f);
@@ -29,18 +33,25 @@ public class Star : MonoBehaviour
             {
                 moveStar = false;
             }
+
+            if (Vector3.Distance(transform.position, finalTargetPos) < 0.001f)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
     private void OnMouseOver()
     {
         FindObjectOfType<StarDisplay>().AddStars(starsToAdd);
-        Destroy(gameObject);
+        colliderComponent.enabled = false;
+        moveStar = true;
+        targetPos = finalTargetPos;
     }
 
     public void MoveStar()
     {
         moveStar = true;
-        GetComponent<BoxCollider2D>().enabled = true;
+        colliderComponent.enabled = true;
     }
 }
