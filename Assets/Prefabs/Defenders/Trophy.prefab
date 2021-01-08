@@ -94,6 +94,7 @@ GameObject:
   - component: {fileID: 3516314145461520350}
   - component: {fileID: -7195804333114068855}
   - component: {fileID: 1162121702372146430}
+  - component: {fileID: 274086795}
   m_Layer: 0
   m_Name: Trophy
   m_TagString: Untagged
@@ -148,6 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8c020c978da744387426cd0ce6c8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  price: 100
 --- !u!114 &1162121702372146430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -162,6 +164,32 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 686590177699891263, guid: f6d99c900662d5940845c867dc92fbcb, type: 3}
   spawnWaitTime: 5
+--- !u!61 &274086795
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3516314145461520348}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.0024190247, y: 0.012095317}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.0145144, y: 1.0145144}
+  m_EdgeRadius: 0
 --- !u!1 &3516314145683398890
 GameObject:
   m_ObjectHideFlags: 0

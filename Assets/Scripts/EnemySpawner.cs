@@ -9,11 +9,11 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     // Constants
-    int minSpawnDelay = 3;
-    int maxSpawnDelay = 5;
+    [SerializeField] int minSpawnDelay = 5;
+    [SerializeField] int maxSpawnDelay = 10;
 
     // Configuration parameters
-    [SerializeField] GameObject enemy;
+    [SerializeField] Enemy enemy;
 
     // State variables
     bool spawn = true;
@@ -40,6 +40,7 @@ public class EnemySpawner : MonoBehaviour
     /// </summary>
     private void SpawnEnemy()
     {
-        Instantiate(enemy, transform.position, Quaternion.identity);
+        Enemy newEnemy = Instantiate(enemy, transform.position, Quaternion.identity);
+        newEnemy.transform.parent = transform;
     }
 }
