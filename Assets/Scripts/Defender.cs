@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Defender : MonoBehaviour
 {
-    // [SerializeField] int price = 100;
+    [SerializeField] int price = 100;
     StarDisplay starDisplay;
 
     private void Start()
@@ -15,5 +15,10 @@ public class Defender : MonoBehaviour
     public void AddStars(int amount)
     {
         starDisplay.AddStars(amount);
+    }
+
+    public int GetStarCost()
+    {
+        return price;
     }
 }
