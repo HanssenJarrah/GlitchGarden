@@ -9,15 +9,7 @@ public class Enemy : MonoBehaviour
 {
     // State variables
     float movementSpeed = 0f;
-
-    /// <summary>
-    /// This method is called by Unity when the game object is fist instantiated.
-    /// Sets collision to false to temporarily prevent the enemy from being hit by projectiles.
-    /// </summary>
-    private void Start()
-    {
-        GetComponent<Collider2D>().enabled = false;
-    }
+    GameObject currentTarget;
 
     /// <summary>
     /// This method is called by Unity once per frame.
@@ -29,13 +21,50 @@ public class Enemy : MonoBehaviour
     }
 
     /// <summary>
-    /// Causes the enemy to begin walking, and allow collistion to take damage from projectiles.
-    /// This method is called by an animation event to approriately time the start of walking.
+    /// Sets the enemy's movement speed accross the playspace. This method is called by 
+    /// animation events to approriately time the start/stop of walking.
     /// </summary>
     /// <param name="newSpeed"> The new speed for the enemy to walk at. </param>
-    public void StartWalking(float newSpeed)
+    public void SetMovementSpeed(float newSpeed)
     {
         movementSpeed = newSpeed;
-        GetComponent<Collider2D>().enabled = true;
+    }
+
+    /// <summary>
+    /// Sets this enemy into the attacking state.
+    /// </summary>
+    /// <param name="target"> Defender target that the enemy's collider collided with. </param>
+    public void Attack(GameObject target)
+    {
+        GetComponent<Animator>().SetBool("IsAttacking", true);
+        currentTarget = target;
+    }
+
+    /// <summary>
+    /// Causes this enemy to attack once, dealing damage to the current target. This also controls the
+    /// animation state of the enemy and defender being attacked.
+    /// </summary>
+    /// <param name="damage"> Amount of damage to deal. </param>
+    public void StrikeCurrentTarget(int damage)
+    {
+        // If another enemy killed the target
+        if (!currentTarget)
+        {
+            GetComponent<Animator>().SetBool("IsAttacking", false);
+            return;
+        }
+
+        Health health = currentTarget.GetComponent<Health>();
+        if (health)
+        {
+            health.DealDamage(damage);
+            currentTarget.GetComponent<Animator>().SetTrigger("TookDamage");
+
+            // Check if the defender is now dead
+            if(health.GetHealth() <= 0)
+            {
+                GetComponent<Animator>().SetBool("IsAttacking", false);
+            }
+        }
     }
 }

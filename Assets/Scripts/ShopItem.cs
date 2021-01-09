@@ -8,7 +8,7 @@ using UnityEngine;
 public class ShopItem : MonoBehaviour
 {
     // Constants
-    Color unselectedItemColour = new Color32(150, 150, 150, 255);
+    readonly Color unselectedItemColour = new Color32(150, 150, 150, 255);
 
     // Configuration parameters
     [SerializeField] Defender defenderPrefab;
@@ -23,9 +23,10 @@ public class ShopItem : MonoBehaviour
         var shopItems = FindObjectsOfType<ShopItem>();
         foreach (ShopItem item in shopItems)
         {
+            // Grey out all shop icons
             item.GetComponent<SpriteRenderer>().color = unselectedItemColour;
         }
-
+        // Make selected shop item full colour
         GetComponent<SpriteRenderer>().color = Color.white;
 
         FindObjectOfType<DefenderPlacement>().SetSelectedDefender(defenderPrefab);

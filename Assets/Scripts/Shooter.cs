@@ -9,7 +9,7 @@ using UnityEngine;
 public class Shooter : MonoBehaviour
 {
     // Configuration parameters
-    [SerializeField] GameObject projectile;
+    [SerializeField] Projectile projectile;
     [SerializeField] GameObject weapon;
 
     // State variables

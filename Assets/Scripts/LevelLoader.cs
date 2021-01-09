@@ -13,7 +13,7 @@ public class LevelLoader : MonoBehaviour
     int currentSceneIndex;
 
     // Constants
-    int waitTime = 3;
+    const int waitTime = 3;
 
     /// <summary>
     /// This method is called by Unity when the game object is fist instantiated.
@@ -46,5 +46,21 @@ public class LevelLoader : MonoBehaviour
     public void LoadNextScene()
     {
         SceneManager.LoadScene(currentSceneIndex + 1);
+    }
+
+    /// <summary>
+    /// Loads the lose screen when the player lets an enemy through.
+    /// </summary>
+    public void LoadLoseScreen()
+    {
+        SceneManager.LoadScene("LoseScreen");
+    }
+
+    /// <summary>
+    /// Quits the game and closes the window.
+    /// </summary>
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }

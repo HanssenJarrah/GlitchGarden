@@ -8,12 +8,10 @@ using UnityEngine;
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
-    // Constants
+    // Configuration parameters
     [SerializeField] int minSpawnDelay = 5;
     [SerializeField] int maxSpawnDelay = 10;
-
-    // Configuration parameters
-    [SerializeField] Enemy enemy;
+    [SerializeField] Enemy[] enemies;
 
     // State variables
     bool spawn = true;
@@ -31,16 +29,26 @@ public class EnemySpawner : MonoBehaviour
         {
             int spawnWaitTime = UnityEngine.Random.Range(minSpawnDelay, maxSpawnDelay);
             yield return new WaitForSeconds(spawnWaitTime);
-            SpawnEnemy();
+            SpawnEnemy(ChooseEnemy());
         }
+    }
+
+    /// <summary>
+    /// Chooses a random enemy to spawn from the array of enemies.
+    /// </summary>
+    /// <returns> Enemy to spawn. </returns>
+    private Enemy ChooseEnemy()
+    {
+        int enemyId = UnityEngine.Random.Range(0, enemies.Length);
+        return enemies[enemyId];
     }
 
     /// <summary>
     /// Spawns a new enemy at the location of the spawner.
     /// </summary>
-    private void SpawnEnemy()
+    private void SpawnEnemy(Enemy enemyToSpawn)
     {
-        Enemy newEnemy = Instantiate(enemy, transform.position, Quaternion.identity);
+        Enemy newEnemy = Instantiate(enemyToSpawn, transform.position, Quaternion.identity);
         newEnemy.transform.parent = transform;
     }
 }
