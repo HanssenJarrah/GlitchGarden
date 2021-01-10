@@ -9,9 +9,6 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public class LevelLoader : MonoBehaviour
 {
-    // State variables
-    int currentSceneIndex;
-
     // Constants
     const int waitTime = 3;
 
@@ -21,7 +18,7 @@ public class LevelLoader : MonoBehaviour
     /// </summary>
     void Start()
     {
-        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+        int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
         if (currentSceneIndex == 0)
         {
             StartCoroutine(WaitForTime());
@@ -45,15 +42,25 @@ public class LevelLoader : MonoBehaviour
     /// </summary>
     public void LoadNextScene()
     {
-        SceneManager.LoadScene(currentSceneIndex + 1);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     /// <summary>
-    /// Loads the lose screen when the player lets an enemy through.
+    /// Reloads the current scene / game level.
     /// </summary>
-    public void LoadLoseScreen()
+    public void ReloadLevel()
     {
-        SceneManager.LoadScene("LoseScreen");
+        Time.timeScale = 1f;    // Resets time scale from pause when level failed
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    /// <summary>
+    /// Loads the StartScreen scene, ie. the main menu.
+    /// </summary>
+    public void LoadMainMenu()
+    {
+        Time.timeScale = 1f;    // Resets time scale from pause when level failed
+        SceneManager.LoadScene("StartScreen");
     }
 
     /// <summary>

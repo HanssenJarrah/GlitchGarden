@@ -34,6 +34,14 @@ public class EnemySpawner : MonoBehaviour
     }
 
     /// <summary>
+    /// Stops this spawner from spawning any more enemies.
+    /// </summary>
+    public void StopSpawning()
+    {
+        spawn = false;
+    }
+
+    /// <summary>
     /// Chooses a random enemy to spawn from the array of enemies.
     /// </summary>
     /// <returns> Enemy to spawn. </returns>

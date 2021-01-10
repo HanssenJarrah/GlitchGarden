@@ -10,7 +10,7 @@ using UnityEngine.UI;
 public class StarDisplay : MonoBehaviour
 {
     // Configuration parameters
-    [SerializeField] int startingStars = 100;
+    int startingStars = 10000;
 
     // State variables
     int currentStars;

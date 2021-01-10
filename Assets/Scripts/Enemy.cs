@@ -12,6 +12,28 @@ public class Enemy : MonoBehaviour
     GameObject currentTarget;
 
     /// <summary>
+    /// This is the first function called by Unity when the game object is first instantiated.
+    /// Increments a counter keeping track of the number of currently living enemies.
+    /// </summary>
+    private void Awake()
+    {
+        FindObjectOfType<LevelController>().EnemySpawned();
+    }
+
+    /// <summary>
+    /// This method is called by Unity before the game object is destroyed.
+    /// Decrements a counter keeping track of the number of currently living enemies.
+    /// </summary>
+    private void OnDestroy()
+    {
+        LevelController levelController = FindObjectOfType<LevelController>();
+        if (levelController != null)
+        {
+            levelController.EnemyKilled();
+        }
+    }
+
+    /// <summary>
     /// This method is called by Unity once per frame.
     /// Controls the movement of the enemy accross the play space (frame independant).
     /// </summary>

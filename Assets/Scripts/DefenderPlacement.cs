@@ -60,6 +60,8 @@ public class DefenderPlacement : MonoBehaviour
     /// <param name="placementPos"> Grid snapped position at which to place the defender. </param>
     private void AttemptDefenderPlacement(Vector2 placementPos)
     {
+        if(defender == null) { return; }    // If no defender is selected
+
         StarDisplay starDisplay = FindObjectOfType<StarDisplay>();
         int defenderCost = defender.GetStarCost();
 
