@@ -50,7 +50,15 @@ public class LevelLoader : MonoBehaviour
     /// </summary>
     public void ReloadLevel()
     {
-        Time.timeScale = 1f;    // Resets time scale from pause when level failed
+        // Reset time scale from pause when level was failed
+        Time.timeScale = 1f;
+        // Play music again that was paused when level was failed
+        MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
+        if (musicPlayer.musicPaused)
+        {
+            musicPlayer.PlayMusic();
+        }
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
@@ -59,8 +67,21 @@ public class LevelLoader : MonoBehaviour
     /// </summary>
     public void LoadMainMenu()
     {
-        Time.timeScale = 1f;    // Resets time scale from pause when level failed
+        // Reset time scale from pause when level was failed
+        Time.timeScale = 1f;
+        // Play music again that was paused when level was failed
+        MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
+        if (musicPlayer.musicPaused)
+        {
+            musicPlayer.PlayMusic();
+        }
+
         SceneManager.LoadScene("StartScreen");
+    }
+
+    public void LoadOptionsMenu()
+    {
+        SceneManager.LoadScene("OptionScreen");
     }
 
     /// <summary>

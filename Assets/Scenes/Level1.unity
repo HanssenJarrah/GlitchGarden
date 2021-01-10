@@ -452,10 +452,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Level Failed Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 5266902793885318100, guid: ccacc16f05c49384fa229f204482b140, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5266902793885318104, guid: ccacc16f05c49384fa229f204482b140, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5

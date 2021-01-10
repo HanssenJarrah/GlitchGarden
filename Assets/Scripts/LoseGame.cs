@@ -19,7 +19,7 @@ public class LoseGame : MonoBehaviour
         // Checks that the collision was with an enemy.
         if (otherObject.GetComponent<Enemy>())
         {
-            FindObjectOfType<LevelController>().HandleLevelFail();
+            FindObjectOfType<LevelController>().HandleFailCondition();
         }
     }
 }

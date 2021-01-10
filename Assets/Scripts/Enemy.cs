@@ -27,7 +27,7 @@ public class Enemy : MonoBehaviour
     private void OnDestroy()
     {
         LevelController levelController = FindObjectOfType<LevelController>();
-        if (levelController != null)
+        if (levelController)
         {
             levelController.EnemyKilled();
         }

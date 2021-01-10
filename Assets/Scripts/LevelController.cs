@@ -17,6 +17,7 @@ public class LevelController : MonoBehaviour
     // State variables
     int numberOfEnemies = 0;
     bool levelTimerFinished = false;
+    bool levelFailed = false;
 
     /// <summary>
     /// Called by unity when the game object this script is attached to is first instantiated.
@@ -45,33 +46,49 @@ public class LevelController : MonoBehaviour
     public void EnemyKilled()
     {
         numberOfEnemies--;
-        if(numberOfEnemies <= 0 && levelTimerFinished)
+        if(numberOfEnemies <= 0 && levelTimerFinished && !levelFailed)
         {
             StartCoroutine(HandleWinCondition());
         }
     }
 
     /// <summary>
-    /// Handles winning the game. Plays a sound effect and shows win text before
-    /// loading the next scene.
+    /// Handles winning the game. Plays a sound effect and shows win text before loading
+    /// the next scene.
     /// </summary>
-    /// <returns></returns>
+    /// <returns> Enumerated type yielded by the WaitForSeconds() method until the set time
+    /// has passed.
+    /// </returns>
     private IEnumerator HandleWinCondition()
     {
+        MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
+        musicPlayer.PauseMusic();
+
         winOverlay.SetActive(true);
         winOverlay.GetComponent<AudioSource>().Play();
+
+
         yield return new WaitForSeconds(winWaitTime);
-        FindObjectOfType<LevelLoader>().LoadNextScene();
+
+        LevelLoader levelLoader = FindObjectOfType<LevelLoader>();
+        if (levelLoader) //Prevent null reference exception
+        {
+            levelLoader.LoadNextScene();
+        }
     }
 
     /// <summary>
     /// Handles when the player fails a level.
     /// </summary>
-    public void HandleLevelFail()
+    public void HandleFailCondition()
     {
+        levelFailed = true;
+        MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
+        musicPlayer.PauseMusic();
+
         loseOverlay.SetActive(true);
-        loseOverlay.GetComponent<AudioSource>().Play();
         Time.timeScale = 0f;
+        loseOverlay.GetComponent<AudioSource>().Play();
     }
 
     /// <summary>
