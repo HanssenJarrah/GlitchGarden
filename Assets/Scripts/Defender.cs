@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,5 +29,10 @@ public class Defender : MonoBehaviour
     public int GetStarCost()
     {
         return price;
+    }
+
+    public static implicit operator Defender(GameObject v)
+    {
+        throw new NotImplementedException();
     }
 }
