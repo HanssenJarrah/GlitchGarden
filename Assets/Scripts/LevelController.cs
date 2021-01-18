@@ -62,11 +62,15 @@ public class LevelController : MonoBehaviour
     private IEnumerator HandleWinCondition()
     {
         MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
-        musicPlayer.PauseMusic();
+        if (musicPlayer) // Music player will not exist if game not started from start screen
+        {
+            musicPlayer.PauseMusic();
+        }
 
         winOverlay.SetActive(true);
-        winOverlay.GetComponent<AudioSource>().Play();
-
+        AudioSource winAudio = winOverlay.GetComponent<AudioSource>();
+        winAudio.volume = PlayerPrefsController.GetMasterVolume();
+        winAudio.Play();
 
         yield return new WaitForSeconds(winWaitTime);
 
@@ -84,11 +88,17 @@ public class LevelController : MonoBehaviour
     {
         levelFailed = true;
         MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
-        musicPlayer.PauseMusic();
+        if (musicPlayer) // Music player will not exist if game not started from start screen
+        { 
+            musicPlayer.PauseMusic(); 
+        }
 
         loseOverlay.SetActive(true);
         Time.timeScale = 0f;
-        loseOverlay.GetComponent<AudioSource>().Play();
+
+        AudioSource loseAudio = loseOverlay.GetComponent<AudioSource>();
+        loseAudio.volume = PlayerPrefsController.GetMasterVolume();
+        loseAudio.Play();
     }
 
     /// <summary>

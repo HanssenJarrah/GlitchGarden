@@ -1,0 +1,4968 @@
+fileFormatVersion: 2
+guid: 61b78653aea5b6642bd34baec5c6a301
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5265577881137423994
+    second: Rube Spawn_0
+  - first:
+      213: -1013373642222986038
+    second: Rube Spawn_1
+  - first:
+      213: 7216043313998869567
+    second: Rube Spawn_2
+  - first:
+      213: -528280182818573306
+    second: Rube Spawn_3
+  - first:
+      213: 2750653412181237560
+    second: Rube Spawn_4
+  - first:
+      213: 2834713233574851194
+    second: Rube Spawn_5
+  - first:
+      213: -964205234372912024
+    second: Rube Spawn_6
+  - first:
+      213: -8819303802351271179
+    second: Rube Spawn_7
+  - first:
+      213: 6225898502950178151
+    second: Rube Spawn_8
+  - first:
+      213: 641024286133693764
+    second: Rube Spawn_9
+  - first:
+      213: 841433738822709984
+    second: Rube Spawn_10
+  - first:
+      213: 7413297361994897447
+    second: Rube Spawn_11
+  - first:
+      213: -8796156112661269559
+    second: Rube Spawn_12
+  - first:
+      213: 7666392684582273520
+    second: Rube Spawn_13
+  - first:
+      213: -357689167495481426
+    second: Rube Spawn_14
+  - first:
+      213: 4184835606476851220
+    second: Rube Spawn_15
+  - first:
+      213: -5041531463585106631
+    second: Rube Spawn_16
+  - first:
+      213: -9144180561143154630
+    second: Rube Spawn_17
+  - first:
+      213: 3984714777326938145
+    second: Rube Spawn_18
+  - first:
+      213: 951836906604125747
+    second: Rube Spawn_19
+  - first:
+      213: -7359507014604495960
+    second: Rube Spawn_20
+  - first:
+      213: -3504068556792599670
+    second: Rube Spawn_21
+  - first:
+      213: 2979993143075034248
+    second: Rube Spawn_22
+  - first:
+      213: -891919345101160208
+    second: Rube Spawn_23
+  - first:
+      213: 554274261895995313
+    second: Rube Spawn_24
+  - first:
+      213: -1254586647298343117
+    second: Rube Spawn_25
+  - first:
+      213: 8092863599159874189
+    second: Rube Spawn_26
+  - first:
+      213: -7495001369548033227
+    second: Rube Spawn_27
+  - first:
+      213: -7019138045924643284
+    second: Rube Spawn_28
+  - first:
+      213: -7231135394292358483
+    second: Rube Spawn_29
+  - first:
+      213: 8281755438676559961
+    second: Rube Spawn_30
+  - first:
+      213: -7695845632610488814
+    second: Rube Spawn_31
+  - first:
+      213: 4187501657929907366
+    second: Rube Spawn_32
+  - first:
+      213: -1240055156635203497
+    second: Rube Spawn_33
+  - first:
+      213: 1947901293122979333
+    second: Rube Spawn_34
+  - first:
+      213: -1853979818401171236
+    second: Rube Spawn_35
+  - first:
+      213: -1877672810143392256
+    second: Rube Spawn_36
+  - first:
+      213: -6460450342694947861
+    second: Rube Spawn_37
+  - first:
+      213: 6372744475021993455
+    second: Rube Spawn_38
+  - first:
+      213: 8622165404788284542
+    second: Rube Spawn_39
+  - first:
+      213: -5374941348703299938
+    second: Rube Spawn_40
+  - first:
+      213: 4842046614665713022
+    second: Rube Spawn_41
+  - first:
+      213: -7328843667971627363
+    second: Rube Spawn_42
+  - first:
+      213: 4566783487380494686
+    second: Rube Spawn_43
+  - first:
+      213: 6910024893512025959
+    second: Rube Spawn_44
+  - first:
+      213: 1359505020532806046
+    second: Rube Spawn_45
+  - first:
+      213: 736489571696119048
+    second: Rube Spawn_46
+  - first:
+      213: -1230127104235520000
+    second: Rube Spawn_47
+  - first:
+      213: 4003383818346515684
+    second: Rube Spawn_48
+  - first:
+      213: -1234579143508600489
+    second: Rube Spawn_49
+  - first:
+      213: -8750204072126154568
+    second: Rube Spawn_50
+  - first:
+      213: 8608897458743075550
+    second: Rube Spawn_51
+  - first:
+      213: 2317277647655170558
+    second: Rube Spawn_52
+  - first:
+      213: -910728158434139393
+    second: Rube Spawn_53
+  - first:
+      213: 1107548804578882315
+    second: Rube Spawn_54
+  - first:
+      213: 3928736368805595979
+    second: Rube Spawn_55
+  - first:
+      213: -4376643963033996553
+    second: Rube Spawn_56
+  - first:
+      213: -2847362897878261420
+    second: Rube Spawn_57
+  - first:
+      213: 838992038955372906
+    second: Rube Spawn_58
+  - first:
+      213: 1273819755363360126
+    second: Rube Spawn_59
+  - first:
+      213: 2931213965133015303
+    second: Rube Spawn_60
+  - first:
+      213: 5211559112025047572
+    second: Rube Spawn_61
+  - first:
+      213: 1226566608543204922
+    second: Rube Spawn_62
+  - first:
+      213: -5232401615259852421
+    second: Rube Spawn_63
+  - first:
+      213: -1712677697033314833
+    second: Rube Spawn_64
+  - first:
+      213: -1210047425893888428
+    second: Rube Spawn_65
+  - first:
+      213: -576170505153681344
+    second: Rube Spawn_66
+  - first:
+      213: 6848152695823453825
+    second: Rube Spawn_67
+  - first:
+      213: -1356009177191184677
+    second: Rube Spawn_68
+  - first:
+      213: -6838669029166819264
+    second: Rube Spawn_69
+  - first:
+      213: -3860694318633884708
+    second: Rube Spawn_70
+  - first:
+      213: 6053117670904055526
+    second: Rube Spawn_71
+  - first:
+      213: -5344702826594463576
+    second: Rube Spawn_72
+  - first:
+      213: -8420364678204193509
+    second: Rube Spawn_73
+  - first:
+      213: -4418013026699574645
+    second: Rube Spawn_74
+  - first:
+      213: -8816632742314903840
+    second: Rube Spawn_75
+  - first:
+      213: -4793605438703358944
+    second: Rube Spawn_76
+  - first:
+      213: -7326367173858534593
+    second: Rube Spawn_77
+  - first:
+      213: 1697165929608809362
+    second: Rube Spawn_78
+  - first:
+      213: 3629392489880324928
+    second: Rube Spawn_79
+  - first:
+      213: -6744416930345439882
+    second: Rube Spawn_80
+  - first:
+      213: 6557152287430031919
+    second: Rube Spawn_81
+  - first:
+      213: 2359732500934265170
+    second: Rube Spawn_82
+  - first:
+      213: 5042955146332107506
+    second: Rube Spawn_83
+  - first:
+      213: 5856786896658689674
+    second: Rube Spawn_84
+  - first:
+      213: 8876494253740851357
+    second: Rube Spawn_85
+  - first:
+      213: -2849595807270438028
+    second: Rube Spawn_86
+  - first:
+      213: 2793989557890716661
+    second: Rube Spawn_87
+  - first:
+      213: 7472226761282184721
+    second: Rube Spawn_88
+  - first:
+      213: 8172265014637374348
+    second: Rube Spawn_89
+  - first:
+      213: 3110075299921497034
+    second: Rube Spawn_90
+  - first:
+      213: 5194220566852455435
+    second: Rube Spawn_91
+  - first:
+      213: -8792231348621215541
+    second: Rube Spawn_92
+  - first:
+      213: -5534074093857435944
+    second: Rube Spawn_93
+  - first:
+      213: -3327294636367056426
+    second: Rube Spawn_94
+  - first:
+      213: 8996206032174603071
+    second: Rube Spawn_95
+  - first:
+      213: -8031671230151668218
+    second: Rube Spawn_96
+  - first:
+      213: 7957153357402589242
+    second: Rube Spawn_97
+  - first:
+      213: 8556537027425714137
+    second: Rube Spawn_98
+  - first:
+      213: 8317750630386549367
+    second: Rube Spawn_99
+  - first:
+      213: 8332765875991978239
+    second: Rube Spawn_100
+  - first:
+      213: 7241408068540915243
+    second: Rube Spawn_101
+  - first:
+      213: 2342259341085314915
+    second: Rube Spawn_102
+  - first:
+      213: 8940532434758482092
+    second: Rube Spawn_103
+  - first:
+      213: 135060648868586090
+    second: Rube Spawn_104
+  - first:
+      213: -7298525172635676748
+    second: Rube Spawn_105
+  - first:
+      213: 7901537324134998737
+    second: Rube Spawn_106
+  - first:
+      213: -5575402030173507182
+    second: Rube Spawn_107
+  - first:
+      213: 3145559875117896782
+    second: Rube Spawn_108
+  - first:
+      213: 7126740864278758040
+    second: Rube Spawn_109
+  - first:
+      213: 1666874768240708692
+    second: Rube Spawn_110
+  - first:
+      213: 7341189815108820627
+    second: Rube Spawn_111
+  - first:
+      213: -7377146922303217264
+    second: Rube Spawn_112
+  - first:
+      213: 1655397773654967793
+    second: Rube Spawn_113
+  - first:
+      213: 1916983375800597202
+    second: Rube Spawn_114
+  - first:
+      213: 6849776383603011388
+    second: Rube Spawn_115
+  - first:
+      213: -4242824996429696255
+    second: Rube Spawn_116
+  - first:
+      213: 4282398051558837639
+    second: Rube Spawn_117
+  - first:
+      213: 6386826198670445698
+    second: Rube Spawn_118
+  - first:
+      213: -4193425893754685857
+    second: Rube Spawn_119
+  - first:
+      213: -9153641738886863608
+    second: Rube Spawn_120
+  - first:
+      213: -1875658641787719993
+    second: Rube Spawn_121
+  - first:
+      213: -5422884312786532847
+    second: Rube Spawn_122
+  - first:
+      213: 735752412226672594
+    second: Rube Spawn_123
+  - first:
+      213: 4049322063320201871
+    second: Rube Spawn_124
+  - first:
+      213: -4532389131541120548
+    second: Rube Spawn_125
+  - first:
+      213: 2594970261864397533
+    second: Rube Spawn_126
+  - first:
+      213: -7893711778958618428
+    second: Rube Spawn_127
+  - first:
+      213: -4652109030901967538
+    second: Rube Spawn_128
+  - first:
+      213: 3323117872087426046
+    second: Rube Spawn_129
+  - first:
+      213: -1987245183434865004
+    second: Rube Spawn_130
+  - first:
+      213: -5559279451335814542
+    second: Rube Spawn_131
+  - first:
+      213: -2804088661706952730
+    second: Rube Spawn_132
+  - first:
+      213: -8406564760200032249
+    second: Rube Spawn_133
+  - first:
+      213: 8729816011796837049
+    second: Rube Spawn_134
+  - first:
+      213: 747654686017586736
+    second: Rube Spawn_135
+  - first:
+      213: -2466081588700412394
+    second: Rube Spawn_136
+  - first:
+      213: 8846610746657459384
+    second: Rube Spawn_137
+  - first:
+      213: 4968227460504969669
+    second: Rube Spawn_138
+  - first:
+      213: 2461153591999457598
+    second: Rube Spawn_139
+  - first:
+      213: -7013498657209652777
+    second: Rube Spawn_140
+  - first:
+      213: -1905460193951994493
+    second: Rube Spawn_141
+  - first:
+      213: 2129767176601167484
+    second: Rube Spawn_142
+  - first:
+      213: 6378822830850841437
+    second: Rube Spawn_143
+  - first:
+      213: -8904900645671173633
+    second: Rube Spawn_144
+  - first:
+      213: 9120865617847558497
+    second: Rube Spawn_145
+  - first:
+      213: 8761795770249559669
+    second: Rube Spawn_146
+  - first:
+      213: 3256944978961060294
+    second: Rube Spawn_147
+  - first:
+      213: -2745084195006534458
+    second: Rube Spawn_148
+  - first:
+      213: 1413305113723814532
+    second: Rube Spawn_149
+  - first:
+      213: 4226883353391876930
+    second: Rube Spawn_150
+  - first:
+      213: -8621845182237085115
+    second: Rube Spawn_151
+  - first:
+      213: -2507856594899360535
+    second: Rube Spawn_152
+  - first:
+      213: 3586610599808375417
+    second: Rube Spawn_153
+  - first:
+      213: -9196894635084617149
+    second: Rube Spawn_154
+  - first:
+      213: -8951393756969482044
+    second: Rube Spawn_155
+  - first:
+      213: 8693607374633680164
+    second: Rube Spawn_156
+  - first:
+      213: 7312313684602961913
+    second: Rube Spawn_157
+  - first:
+      213: -1101354462046267868
+    second: Rube Spawn_158
+  - first:
+      213: 6038100938594064694
+    second: Rube Spawn_159
+  - first:
+      213: -8185504304590786393
+    second: Rube Spawn_160
+  - first:
+      213: 4308936962196842239
+    second: Rube Spawn_161
+  - first:
+      213: 3778573011061511103
+    second: Rube Spawn_162
+  - first:
+      213: -2751079018368389512
+    second: Rube Spawn_163
+  - first:
+      213: 6513344340059767021
+    second: Rube Spawn_164
+  - first:
+      213: 9031412274565128602
+    second: Rube Spawn_165
+  - first:
+      213: 43170150228682220
+    second: Rube Spawn_166
+  - first:
+      213: -7318249098671630362
+    second: Rube Spawn_167
+  - first:
+      213: -1119854095733400712
+    second: Rube Spawn_168
+  - first:
+      213: -8854750956460579979
+    second: Rube Spawn_169
+  - first:
+      213: -6927863428466705946
+    second: Rube Spawn_170
+  - first:
+      213: -196116189376139332
+    second: Rube Spawn_171
+  - first:
+      213: 3118264599919404132
+    second: Rube Spawn_172
+  - first:
+      213: 8450724555303234690
+    second: Rube Spawn_173
+  - first:
+      213: -8943044432503456065
+    second: Rube Spawn_174
+  - first:
+      213: 2603058941385349559
+    second: Rube Spawn_175
+  - first:
+      213: 6953184192984995142
+    second: Rube Spawn_176
+  - first:
+      213: 2738604859909269228
+    second: Rube Spawn_177
+  - first:
+      213: 4125729517588119422
+    second: Rube Spawn_178
+  - first:
+      213: -5914761708595261660
+    second: Rube Spawn_179
+  - first:
+      213: -4062890306946145486
+    second: Rube Spawn_180
+  - first:
+      213: -5308047120145282221
+    second: Rube Spawn_181
+  - first:
+      213: 3633156335010532439
+    second: Rube Spawn_182
+  - first:
+      213: 7949906859322530934
+    second: Rube Spawn_183
+  - first:
+      213: -2211796302172753956
+    second: Rube Spawn_184
+  - first:
+      213: 1182377113237296839
+    second: Rube Spawn_185
+  - first:
+      213: -3791272157123112952
+    second: Rube Spawn_186
+  - first:
+      213: 1128303580822714386
+    second: Rube Spawn_187
+  - first:
+      213: 7910265121231640446
+    second: Rube Spawn_188
+  - first:
+      213: 1511810823457885415
+    second: Rube Spawn_189
+  - first:
+      213: 4575313178941771757
+    second: Rube Spawn_190
+  - first:
+      213: 2836922650971393588
+    second: Rube Spawn_191
+  - first:
+      213: 6435998921704438343
+    second: Rube Spawn_192
+  - first:
+      213: 555856543860380061
+    second: Rube Spawn_193
+  - first:
+      213: -1894852187825707842
+    second: Rube Spawn_194
+  - first:
+      213: -8249271093524420630
+    second: Rube Spawn_195
+  - first:
+      213: -709752167357239028
+    second: Rube Spawn_196
+  - first:
+      213: 730891776459052050
+    second: Rube Spawn_197
+  - first:
+      213: 1013912984080110707
+    second: Rube Spawn_198
+  - first:
+      213: -4171377441014946031
+    second: Rube Spawn_199
+  - first:
+      213: 9193177503560901865
+    second: Rube Spawn_200
+  - first:
+      213: 8922080048861609011
+    second: Rube Spawn_201
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 145
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rube Spawn_0
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68956a9b0d8ece6b0800000000000000
+      internalID: -5265577881137423994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_1
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acc1e8e9a06cfe1f0800000000000000
+      internalID: -1013373642222986038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_2
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f343cbe6929842460800000000000000
+      internalID: 7216043313998869567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_3
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 604783109fb2ba8f0800000000000000
+      internalID: -528280182818573306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_4
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83f574d64b84c2620800000000000000
+      internalID: 2750653412181237560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3388
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a72f35fbaace65720800000000000000
+      internalID: 2834713233574851194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c51aaa2747e92f0800000000000000
+      internalID: -964205234372912024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_7
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2c99e1be98b9580800000000000000
+      internalID: -8819303802351271179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76d4bf3c3b5d66650800000000000000
+      internalID: 6225898502950178151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_9
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44da563213065e800800000000000000
+      internalID: 641024286133693764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_10
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e27e80078f5dab00800000000000000
+      internalID: 841433738822709984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_11
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 728db046ca251e660800000000000000
+      internalID: 7413297361994897447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_12
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3b1fb9e96cde580800000000000000
+      internalID: -8796156112661269559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_13
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f10e21478f746a60800000000000000
+      internalID: 7666392684582273520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_14
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3234
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea73d67e89b390bf0800000000000000
+      internalID: -357689167495481426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4188577dfc5831a30800000000000000
+      internalID: 4184835606476851220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_16
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 935fd0558d1e80ab0800000000000000
+      internalID: -5041531463585106631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_17
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38b7034a38591180800000000000000
+      internalID: -9144180561143154630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_18
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12862d16afc8c4730800000000000000
+      internalID: 3984714777326938145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_19
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33ede3e9f9a953d00800000000000000
+      internalID: 951836906604125747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_20
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3e080dc57cdd990800000000000000
+      internalID: -7359507014604495960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_21
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8be2c3863c0f5fc0800000000000000
+      internalID: -3504068556792599670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_22
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884561699ff0b5920800000000000000
+      internalID: 2979993143075034248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_23
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 3080
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f042fac4144f93f0800000000000000
+      internalID: -891919345101160208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfd378218d21b700800000000000000
+      internalID: 554274261895995313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_25
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33f75d36710d69ee0800000000000000
+      internalID: -1254586647298343117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_26
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d821d9bc090af4070800000000000000
+      internalID: 8092863599159874189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_27
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533f501f6f76cf790800000000000000
+      internalID: -7495001369548033227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_28
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e6b3fd223079e90800000000000000
+      internalID: -7019138045924643284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da2237ccba8d5ab90800000000000000
+      internalID: -7231135394292358483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_30
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958c9fe51b4bee270800000000000000
+      internalID: 8281755438676559961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_31
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ea206eb2dd23590800000000000000
+      internalID: -7695845632610488814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_32
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2926
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac7541529efc1a30800000000000000
+      internalID: 4187501657929907366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7580ed6b7607acee0800000000000000
+      internalID: -1240055156635203497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_34
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5068e1ad7e5580b10800000000000000
+      internalID: 1947901293122979333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_35
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8747f8d275546e0800000000000000
+      internalID: -1853979818401171236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_36
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00e5efa078a21f5e0800000000000000
+      internalID: -1877672810143392256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_37
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be3fd9a64aed756a0800000000000000
+      internalID: -6460450342694947861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_38
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5e406f559807850800000000000000
+      internalID: 6372744475021993455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_39
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7c5113e0c518a770800000000000000
+      internalID: 8622165404788284542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_40
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e961bfd225f5865b0800000000000000
+      internalID: -5374941348703299938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_41
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2772
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e755805edb7623340800000000000000
+      internalID: 4842046614665713022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d962e2c8387ba4a90800000000000000
+      internalID: -7328843667971627363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_43
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e591f6bc269706f30800000000000000
+      internalID: 4566783487380494686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_44
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76704ee970755ef50800000000000000
+      internalID: 6910024893512025959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_45
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d73bfc9eedd210800000000000000
+      internalID: 1359505020532806046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_46
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d0ab50d59883a00800000000000000
+      internalID: 736489571696119048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_47
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 000467b8ae5bdeee0800000000000000
+      internalID: -1230127104235520000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_48
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ec47183f50ee8730800000000000000
+      internalID: 4003383818346515684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_49
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75950106fc4eddee0800000000000000
+      internalID: -1234579143508600489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_50
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2618
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b87eb8c1c7019680800000000000000
+      internalID: -8750204072126154568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_51
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed2e42870a2f87770800000000000000
+      internalID: 8608897458743075550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_52
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef1707a3ebf982020800000000000000
+      internalID: 2317277647655170558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_53
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff2669da0917c53f0800000000000000
+      internalID: -910728158434139393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_54
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03355c05cdce5f00800000000000000
+      internalID: 1107548804578882315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_55
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4bc0de79eca58630800000000000000
+      internalID: 3928736368805595979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_56
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f2300b01890343c0800000000000000
+      internalID: -4376643963033996553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_57
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451e655c7822c78d0800000000000000
+      internalID: -2847362897878261420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_58
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a61d05370d2b4ab00800000000000000
+      internalID: 838992038955372906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_59
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2464
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dde4a81548da110800000000000000
+      internalID: 1273819755363360126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 709ea603293cda820800000000000000
+      internalID: 2931213965133015303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_61
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412043e766d235840800000000000000
+      internalID: 5211559112025047572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_62
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36c293f4d3a50110800000000000000
+      internalID: 1226566608543204922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_63
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b71a1401476c267b0800000000000000
+      internalID: -5232401615259852421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_64
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed589d65b85b38e0800000000000000
+      internalID: -1712677697033314833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_65
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e083af64c053fe0800000000000000
+      internalID: -1210047425893888428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_66
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048e14e6af70108f0800000000000000
+      internalID: -576170505153681344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_67
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18ec0320896890f50800000000000000
+      internalID: 6848152695823453825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_68
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2310
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd6895976dc7e2de0800000000000000
+      internalID: -1356009177191184677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048db0430ca2811a0800000000000000
+      internalID: -6838669029166819264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_70
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd36577d8fe0c6ac0800000000000000
+      internalID: -3860694318633884708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_71
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e640ed637ef00450800000000000000
+      internalID: 6053117670904055526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_72
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a09fceb81dc3d5b0800000000000000
+      internalID: -5344702826594463576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_73
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15846c20fad42b80800000000000000
+      internalID: -8420364678204193509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_74
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8206825f8010b2c0800000000000000
+      internalID: -4418013026699574645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_75
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6fd3fbb3705a580800000000000000
+      internalID: -8816632742314903840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_76
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ca4b84041b97db0800000000000000
+      internalID: -4793605438703358944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_77
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2156
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b54144fd3835a90800000000000000
+      internalID: -7326367173858534593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b8a37cb6b8d8710800000000000000
+      internalID: 1697165929608809362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_79
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b89cd7d313e5230800000000000000
+      internalID: 3629392489880324928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_80
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d21a909840762a0800000000000000
+      internalID: -6744416930345439882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_81
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a386e934faffa50800000000000000
+      internalID: 6557152287430031919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_82
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259812b05347fb020800000000000000
+      internalID: 2359732500934265170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_83
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f27a53acfc2cf540800000000000000
+      internalID: 5042955146332107506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_84
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ee084e6ac774150800000000000000
+      internalID: 5856786896658689674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_85
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90050d7e74af2b70800000000000000
+      internalID: 8876494253740851357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_86
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2002
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47bf33a06b33478d0800000000000000
+      internalID: -2849595807270438028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f31a3023be36c620800000000000000
+      internalID: 2793989557890716661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_88
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116646b56aea2b760800000000000000
+      internalID: 7472226761282184721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_89
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b20d77bb7b96170800000000000000
+      internalID: 8172265014637374348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_90
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb8984e105392b20800000000000000
+      internalID: 3110075299921497034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_91
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0cc44cd514951840800000000000000
+      internalID: 5194220566852455435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_92
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8f062fb28bbf580800000000000000
+      internalID: -8792231348621215541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_93
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de8fe2bee40333b0800000000000000
+      internalID: -5534074093857435944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_94
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d17740382313d1d0800000000000000
+      internalID: -3327294636367056426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_95
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1848
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b5ef9e8b1f8dc70800000000000000
+      internalID: 8996206032174603071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ec51ed195c98090800000000000000
+      internalID: -8031671230151668218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_97
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38c94bd1dc7d6e60800000000000000
+      internalID: 7957153357402589242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_98
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dfbf2b871deeb670800000000000000
+      internalID: 8556537027425714137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_99
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 772c87601269e6370800000000000000
+      internalID: 8317750630386549367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_100
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0aff25a6ee3a370800000000000000
+      internalID: 8332765875991978239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_101
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2e570f8546ae7460800000000000000
+      internalID: 7241408068540915243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_102
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36f0b3df570618020800000000000000
+      internalID: 2342259341085314915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_103
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca833a461e6231c70800000000000000
+      internalID: 8940532434758482092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_104
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1694
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6222fec1f4dfd100800000000000000
+      internalID: 135060648868586090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfcdc4560e66ba90800000000000000
+      internalID: -7298525172635676748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_106
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2ae880556e7ad60800000000000000
+      internalID: 7901537324134998737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_107
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291348fa46130a2b0800000000000000
+      internalID: -5575402030173507182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_108
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44df106a0647ab20800000000000000
+      internalID: 3145559875117896782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_109
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89288959e0547e260800000000000000
+      internalID: 7126740864278758040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_110
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c8c0e25cde12710800000000000000
+      internalID: 1666874768240708692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_111
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39ed646dd3521e560800000000000000
+      internalID: 7341189815108820627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_112
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0912040c5fb1f9990800000000000000
+      internalID: -7377146922303217264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_113
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1540
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f54da4218729f610800000000000000
+      internalID: 1655397773654967793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2da7ce2493e7a9a10800000000000000
+      internalID: 1916983375800597202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_115
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f6487445b4f0f50800000000000000
+      internalID: 6849776383603011388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_116
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 103f8ab25257e15c0800000000000000
+      internalID: -4242824996429696255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_117
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78d4df9b6522e6b30800000000000000
+      internalID: 4282398051558837639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_118
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c09edb69092a850800000000000000
+      internalID: 6386826198670445698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_119
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f56b3da0e55fdc5c0800000000000000
+      internalID: -4193425893754685857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_120
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 805a578265bb7f080800000000000000
+      internalID: -9153641738886863608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_121
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cee958276258f5e0800000000000000
+      internalID: -1875658641787719993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_122
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1386
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 116025ef27b0eb4b0800000000000000
+      internalID: -5422884312786532847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d75865bbeae53a00800000000000000
+      internalID: 735752412226672594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_124
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a3a5d56f4123830800000000000000
+      internalID: 4049322063320201871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_125
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd976a63918b911c0800000000000000
+      internalID: -4532389131541120548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_126
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dda312554bf230420800000000000000
+      internalID: 2594970261864397533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_127
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c0dadfa5f6e37290800000000000000
+      internalID: -7893711778958618428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_128
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4593bcfb73607fb0800000000000000
+      internalID: -4652109030901967538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_129
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3e58819161e1e20800000000000000
+      internalID: 3323117872087426046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_130
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49642c7d803eb64e0800000000000000
+      internalID: -1987245183434865004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_131
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1232
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27210081bc879d2b0800000000000000
+      internalID: -5559279451335814542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_132
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa1480830e519d0800000000000000
+      internalID: -2804088661706952730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_133
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 700d5f6f3e1e55b80800000000000000
+      internalID: -8406564760200032249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_134
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2faa10969862970800000000000000
+      internalID: 8729816011796837049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_135
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0360cb6c9f3306a00800000000000000
+      internalID: 747654686017586736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_136
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61681666cd7b6cdd0800000000000000
+      internalID: -2466081588700412394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_137
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bccbac4a9975ca70800000000000000
+      internalID: 8846610746657459384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_138
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c16db27d80b2f440800000000000000
+      internalID: 4968227460504969669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_139
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39edc4f626c72220800000000000000
+      internalID: 2461153591999457598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_140
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 1078
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d9e650612c0bae90800000000000000
+      internalID: -7013498657209652777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_141
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38d28d59c027e85e0800000000000000
+      internalID: -1905460193951994493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_142
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c76699f86f37e8d10800000000000000
+      internalID: 2129767176601167484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_143
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5b14067191268850800000000000000
+      internalID: 6378822830850841437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_144
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff18f9efa007b6480800000000000000
+      internalID: -8904900645671173633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_145
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161a0eb74f2d39e70800000000000000
+      internalID: 9120865617847558497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_146
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ebe30c4d6289970800000000000000
+      internalID: 8761795770249559669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_147
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c157fbc33ef23d20800000000000000
+      internalID: 3256944978961060294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_148
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cca81ef77087e9d0800000000000000
+      internalID: -2745084195006534458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_149
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 924
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48240ce43811d9310800000000000000
+      internalID: 1413305113723814532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b4fe1d308e8aa30800000000000000
+      internalID: 4226883353391876930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_151
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 542785cbc7d095880800000000000000
+      internalID: -8621845182237085115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_152
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e42761d6bd423dd0800000000000000
+      internalID: -2507856594899360535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_153
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97a9a3d765336c130800000000000000
+      internalID: 3586610599808375417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_154
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ae51f7e011e5080800000000000000
+      internalID: -9196894635084617149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_155
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c84f27fdc246c380800000000000000
+      internalID: -8951393756969482044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_156
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42db1c5b8d5e5a870800000000000000
+      internalID: 8693607374633680164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_157
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffbcf8cd8e8a7560800000000000000
+      internalID: 7312313684602961913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_158
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 770
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 426d0f5b3f337b0f0800000000000000
+      internalID: -1101354462046267868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6391adaffc4abc350800000000000000
+      internalID: 6038100938594064694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_160
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a07f61243f376e80800000000000000
+      internalID: -8185504304590786393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_161
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff62b4f565b6ccb30800000000000000
+      internalID: 4308936962196842239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_162
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb313324220307430800000000000000
+      internalID: 3778573011061511103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_163
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e2f19653432d9d0800000000000000
+      internalID: -2751079018368389512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_164
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de040190b2c046a50800000000000000
+      internalID: 6513344340059767021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_165
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91ae8dfc95065d70800000000000000
+      internalID: 9031412274565128602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_166
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce5e74dd50f599000800000000000000
+      internalID: 43170150228682220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_167
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 616
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7dadfe73b507a90800000000000000
+      internalID: -7318249098671630362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b5b8712aa7570f0800000000000000
+      internalID: -1119854095733400712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_169
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 573ed996bea9d1580800000000000000
+      internalID: -8854750956460579979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_170
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e972ddcae84bdf90800000000000000
+      internalID: -6927863428466705946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_171
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf28856d51474df0800000000000000
+      internalID: -196116189376139332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_172
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4642fd1e12d464b20800000000000000
+      internalID: 3118264599919404132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_173
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c258d8531074570800000000000000
+      internalID: 8450724555303234690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_174
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbeb81e887ce3e380800000000000000
+      internalID: -8943044432503456065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_175
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b99daac05cef1420800000000000000
+      internalID: 2603058941385349559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_176
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 462
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6455bb81f2cae7060800000000000000
+      internalID: 6953184192984995142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce6ec0f3c9a710620800000000000000
+      internalID: 2738604859909269228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_178
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7ffe2f1329814930800000000000000
+      internalID: 4125729517588119422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_179
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fc814509b8aeda0800000000000000
+      internalID: -5914761708595261660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_180
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 233e81dbac6bd97c0800000000000000
+      internalID: -4062890306946145486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_181
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b84b874470656b0800000000000000
+      internalID: -5308047120145282221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_182
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c43c9ff609b6230800000000000000
+      internalID: 3633156335010532439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_183
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c5c5b0b2eb35e60800000000000000
+      internalID: 7949906859322530934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_184
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdf68755bfe1e41e0800000000000000
+      internalID: -2211796302172753956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_185
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 308
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c69f0158b5a86010800000000000000
+      internalID: 1182377113237296839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80019d36f02b26bc0800000000000000
+      internalID: -3791272157123112952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_187
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2183db5f02a88af00800000000000000
+      internalID: 1128303580822714386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_188
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e779c26a738e6cd60800000000000000
+      internalID: 7910265121231640446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_189
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec4ccb1fe70bf410800000000000000
+      internalID: 1511810823457885415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_190
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defccfe5817ce7f30800000000000000
+      internalID: 4575313178941771757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_191
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ec862de16ce5720800000000000000
+      internalID: 2836922650971393588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_192
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74a7dfe7be2415950800000000000000
+      internalID: 6435998921704438343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_193
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91dfd2e49cc6b700800000000000000
+      internalID: 555856543860380061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_194
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 154
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4e6ca79f124b5e0800000000000000
+      internalID: -1894852187825707842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7249e95a3b48d80800000000000000
+      internalID: -8249271093524420630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_196
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01bb1a0a247626f0800000000000000
+      internalID: -709752167357239028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_197
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2149811c236a42a00800000000000000
+      internalID: 730891776459052050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_198
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3745041bc74221e00800000000000000
+      internalID: 1013912984080110707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_199
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 117e93c715a4c16c0800000000000000
+      internalID: -4171377441014946031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_200
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e42cd06b3ab49f70800000000000000
+      internalID: 9193177503560901865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rube Spawn_201
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 108
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33cfef1888891db70800000000000000
+      internalID: 8922080048861609011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

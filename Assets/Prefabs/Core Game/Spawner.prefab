@@ -45,4 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   minSpawnDelay: 20
   maxSpawnDelay: 30
-  enemy: {fileID: 6891257349007546965, guid: f3bd05c9add406f46b9213c39b06f40e, type: 3}
+  enemies:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 1441084601824444679, guid: d09425a9dc32a674092148e95fd6cf56, type: 3}
