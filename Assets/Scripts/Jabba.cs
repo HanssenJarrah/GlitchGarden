@@ -31,7 +31,8 @@ public class Jabba : MonoBehaviour
     }
 
     /// <summary>
-    /// Enables the Jabba attack ray to be shown.
+    /// Enables the Jabba attack ray to be shown and sets its start and end position. The targeted object
+    /// is destroyed.
     /// </summary>
     public void StartAttacking()
     {

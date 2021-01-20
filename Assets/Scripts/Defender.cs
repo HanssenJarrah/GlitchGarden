@@ -11,16 +11,6 @@ public class Defender : MonoBehaviour
 {
     // Configuration parameters
     [SerializeField] int price = 100;
-    StarDisplay starDisplay;
-
-    /// <summary>
-    /// Called by Unity when the game object this script is attached to is first instantiated.
-    /// Finds the game object that has the script controlling the star amount displayed to the player.
-    /// </summary>
-    private void Start()
-    {
-        starDisplay = FindObjectOfType<StarDisplay>();
-    }
 
     /// <summary>
     /// Gets the cost in stars to place this new defender.
@@ -29,10 +19,5 @@ public class Defender : MonoBehaviour
     public int GetStarCost()
     {
         return price;
-    }
-
-    public static implicit operator Defender(GameObject v)
-    {
-        throw new NotImplementedException();
     }
 }

@@ -150,7 +150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8c020c978da744387426cd0ce6c8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 100
+  price: 50
 --- !u!114 &1162121702372146430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 686590177699891263, guid: f6d99c900662d5940845c867dc92fbcb, type: 3}
-  spawnWaitTime: 5
+  spawnWaitTime: 10
 --- !u!61 &274086795
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -204,7 +204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 2
-  deathParticles: {fileID: 198416179944302826, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
+  deathParticles: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
 --- !u!1 &3516314145683398890
 GameObject:
   m_ObjectHideFlags: 0

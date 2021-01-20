@@ -8,47 +8,35 @@ using UnityEngine;
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
-    // Configuration parameters
-    [SerializeField] int minSpawnDelay = 5;
-    [SerializeField] int maxSpawnDelay = 10;
-    [SerializeField] Enemy[] enemies;
-
-    // State variables
-    bool spawn = true;
+    /// <summary>
+    /// Struct used to store a single enemy spawn event and its delay to wait after the previous event.
+    /// </summary>
+    [Serializable]
+    public struct SpawnEvent
+    {
+        [SerializeField] internal float delay;
+        [SerializeField] internal Enemy enemy;
+    }
 
     /// <summary>
-    /// Called by Unity when the game object is first instantiated as a co-routine.
-    /// Controls the timing of enemy spawning.
+    /// This array of spawn events defines the schedule on which enemies are to spawn. This includes the
+    /// type of enemy as well as the delay between the previous and current event.
+    /// </summary>
+    [SerializeField] SpawnEvent[] spawnSchedule;
+
+    /// <summary>
+    /// Called by Unity as a co-routine when the game object this script is attached to is
+    /// first instantiated. Starts the scheduled spawning of enemies.
     /// </summary>
     /// <returns> Enumerated type yielded by the WaitForSeconds() method until the set time
-    /// has passed.
-    /// </returns>
+    /// has passed. </returns>
     IEnumerator Start()
     {
-        while (spawn)
+        foreach (SpawnEvent spawnEvent in spawnSchedule)
         {
-            int spawnWaitTime = UnityEngine.Random.Range(minSpawnDelay, maxSpawnDelay);
-            yield return new WaitForSeconds(spawnWaitTime);
-            SpawnEnemy(ChooseEnemy());
+            yield return new WaitForSeconds(spawnEvent.delay);
+            SpawnEnemy(spawnEvent.enemy);
         }
-    }
-
-    /// <summary>
-    /// Stops this spawner from spawning any more enemies.
-    /// </summary>
-    public void StopSpawning()
-    {
-        spawn = false;
-    }
-
-    /// <summary>
-    /// Chooses a random enemy to spawn from the array of enemies.
-    /// </summary>
-    /// <returns> Enemy to spawn. </returns>
-    private Enemy ChooseEnemy()
-    {
-        int enemyId = UnityEngine.Random.Range(0, enemies.Length);
-        return enemies[enemyId];
     }
 
     /// <summary>

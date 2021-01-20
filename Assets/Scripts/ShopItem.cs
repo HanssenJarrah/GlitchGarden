@@ -1,6 +1,8 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 /// <summary>
 /// Defines an item that can be bought by the player from the shop.
@@ -12,6 +14,27 @@ public class ShopItem : MonoBehaviour
 
     // Configuration parameters
     [SerializeField] Defender defenderPrefab;
+
+    /// <summary>
+    /// Called by unity when the game object this script is attached to is first instantiated.
+    /// </summary>
+    private void Start()
+    {
+        LabelItemWithCost();
+    }
+
+    /// <summary>
+    /// Labels the shop item with its cost to buy.
+    /// </summary>
+    private void LabelItemWithCost()
+    {
+        Text costText = GetComponentInChildren<Text>();
+        if (!costText) { return; }
+        else
+        {
+            costText.text = defenderPrefab.GetStarCost().ToString();
+        }
+    }
 
     /// <summary>
     /// Allows this item to be selected from the shop when the player clicks it with the mouse.

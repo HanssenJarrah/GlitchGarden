@@ -10,7 +10,7 @@ using UnityEngine.EventSystems;
 public class Star : MonoBehaviour
 {
     // Constants
-    const int starsToAdd = 50;
+    [SerializeField] int starsToAdd = 50;
     const float starSpeed = 10f;
     readonly Vector2 finalTargetPos = new Vector2(9.94f, 5.93f);
 

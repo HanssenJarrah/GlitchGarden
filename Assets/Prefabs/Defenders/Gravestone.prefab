@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6d8c020c978da744387426cd0ce6c8c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  price: 100
+  price: 50
 --- !u!95 &7545321413061630699
 Animator:
   serializedVersion: 3
@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c372ce7ff650bc641ae0a3d9e10ddf82, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 6
+  health: 20
   deathParticles: {fileID: 1906222994913036, guid: 740c2b3187d56c341b8cb78e8aa925c5, type: 3}
 --- !u!114 &16461526544939530
 MonoBehaviour:

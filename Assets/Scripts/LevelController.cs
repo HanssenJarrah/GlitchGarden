@@ -108,18 +108,6 @@ public class LevelController : MonoBehaviour
     public void LevelTimerFinished()
     {
         levelTimerFinished = true;
-        StopEnemySpawners();
-    }
-
-    /// <summary>
-    /// Stops all spawners in the level from spawning.
-    /// </summary>
-    private void StopEnemySpawners()
-    {
-        EnemySpawner[] spawners = FindObjectsOfType<EnemySpawner>();
-        foreach(EnemySpawner spawner in spawners)
-        {
-            spawner.StopSpawning();
-        }
+        // StopEnemySpawners();
     }
 }
