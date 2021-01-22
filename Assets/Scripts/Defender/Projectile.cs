@@ -29,8 +29,9 @@ public class Projectile : MonoBehaviour
     {
         var health = otherCollider.GetComponent<Health>();
         var enemy = otherCollider.GetComponent<Enemy>();
+        bool bossAttackTrigger = otherCollider.GetType() == typeof(CircleCollider2D);
 
-        if (enemy && health)
+        if (enemy && health && !bossAttackTrigger)
         {
             health.DealDamage(projectileDamage);
             Destroy(gameObject);

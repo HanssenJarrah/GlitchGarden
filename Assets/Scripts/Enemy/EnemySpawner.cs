@@ -4,22 +4,22 @@ using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
+/// Struct used to store a single enemy spawn event and its delay to wait after the previous event.
+/// </summary>
+[Serializable]
+public struct SpawnEvent
+{
+    [SerializeField] internal float delay;
+    [SerializeField] internal Enemy enemy;
+}
+
+/// <summary>
 /// Class that allows configuration of parameters controlling spawning of new enemies.
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
     // Spawn offset for enemies without a spawn animation
     Vector2 spawnOffset = new Vector2(2.5f, 0f);
-
-    /// <summary>
-    /// Struct used to store a single enemy spawn event and its delay to wait after the previous event.
-    /// </summary>
-    [Serializable]
-    public struct SpawnEvent
-    {
-        [SerializeField] internal float delay;
-        [SerializeField] internal Enemy enemy;
-    }
 
     // This array of spawn events defines the schedule on which enemies are to spawn. This includes the
     // type of enemy as well as the delay between the previous and current event.

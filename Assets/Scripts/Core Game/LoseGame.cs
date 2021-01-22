@@ -13,11 +13,13 @@ public class LoseGame : MonoBehaviour
     /// collider attached to the same game object as this script.
     /// </summary>
     /// <param name="collision"> Object that the collider collided with. </param>
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D otherCollider)
     {
-        GameObject otherObject = collision.gameObject;
+        GameObject otherObject = otherCollider.gameObject;
+        bool bossAttackTrigger = otherCollider.GetType() == typeof(CircleCollider2D);
+
         // Checks that the collision was with an enemy.
-        if (otherObject.GetComponent<Enemy>())
+        if (otherObject.GetComponent<Enemy>() && !bossAttackTrigger)
         {
             FindObjectOfType<LevelController>().HandleFailCondition();
         }
