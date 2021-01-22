@@ -42,6 +42,13 @@ public class LevelLoader : MonoBehaviour
     /// </summary>
     public void LoadNextScene()
     {
+        // Play music again that was paused when level was completed
+        MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
+        if (musicPlayer != null && musicPlayer.musicPaused)
+        {
+            musicPlayer.PlayMusic();
+        }
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
@@ -54,7 +61,7 @@ public class LevelLoader : MonoBehaviour
         Time.timeScale = 1f;
         // Play music again that was paused when level was failed
         MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
-        if (musicPlayer.musicPaused)
+        if (musicPlayer != null && musicPlayer.musicPaused)
         {
             musicPlayer.PlayMusic();
         }
@@ -71,7 +78,7 @@ public class LevelLoader : MonoBehaviour
         Time.timeScale = 1f;
         // Play music again that was paused when level was failed
         MusicPlayer musicPlayer = FindObjectOfType<MusicPlayer>();
-        if (musicPlayer.musicPaused)
+        if (musicPlayer != null && musicPlayer.musicPaused)
         {
             musicPlayer.PlayMusic();
         }

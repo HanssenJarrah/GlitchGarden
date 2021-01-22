@@ -8,6 +8,9 @@ using UnityEngine;
 /// </summary>
 public class EnemySpawner : MonoBehaviour
 {
+    // Spawn offset for enemies without a spawn animation
+    Vector2 spawnOffset = new Vector2(2.5f, 0f);
+
     /// <summary>
     /// Struct used to store a single enemy spawn event and its delay to wait after the previous event.
     /// </summary>
@@ -18,10 +21,8 @@ public class EnemySpawner : MonoBehaviour
         [SerializeField] internal Enemy enemy;
     }
 
-    /// <summary>
-    /// This array of spawn events defines the schedule on which enemies are to spawn. This includes the
-    /// type of enemy as well as the delay between the previous and current event.
-    /// </summary>
+    // This array of spawn events defines the schedule on which enemies are to spawn. This includes the
+    // type of enemy as well as the delay between the previous and current event.
     [SerializeField] SpawnEvent[] spawnSchedule;
 
     /// <summary>
@@ -44,7 +45,14 @@ public class EnemySpawner : MonoBehaviour
     /// </summary>
     private void SpawnEnemy(Enemy enemyToSpawn)
     {
-        Enemy newEnemy = Instantiate(enemyToSpawn, transform.position, Quaternion.identity);
+        // Spawn Foxes and Jabbas off screen.
+        Vector2 spawnPos = transform.position;
+        if (enemyToSpawn.GetComponent<Fox>() || enemyToSpawn.GetComponent<Jabba>())
+        {
+            spawnPos += spawnOffset;
+        }
+
+        Enemy newEnemy = Instantiate(enemyToSpawn, spawnPos, Quaternion.identity);
         newEnemy.transform.parent = transform;
     }
 }

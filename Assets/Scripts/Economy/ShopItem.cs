@@ -10,17 +10,27 @@ using UnityEngine.UI;
 public class ShopItem : MonoBehaviour
 {
     // Constants
-    readonly Color unselectedItemColour = new Color32(150, 150, 150, 255);
+    Color[] unselectedItemColour; // = new Color32(150, 150, 150, 255);
 
     // Configuration parameters
     [SerializeField] Defender defenderPrefab;
 
     /// <summary>
     /// Called by unity when the game object this script is attached to is first instantiated.
+    /// Labels each shop item with the appropriate cost, and saves what colour it should be when
+    /// unselected.
     /// </summary>
     private void Start()
     {
         LabelItemWithCost();
+
+        // Set the unselected colour for each shop item
+        var shopItems = FindObjectsOfType<ShopItem>();
+        unselectedItemColour = new Color[shopItems.Length];
+        for (int i = 0; i < shopItems.Length; i++)
+        {
+            unselectedItemColour[i] = shopItems[i].GetComponent<SpriteRenderer>().color;
+        }
     }
 
     /// <summary>
@@ -44,10 +54,10 @@ public class ShopItem : MonoBehaviour
     private void OnMouseUp()
     {
         var shopItems = FindObjectsOfType<ShopItem>();
-        foreach (ShopItem item in shopItems)
+        for (int i = 0; i < shopItems.Length; i++)
         {
             // Grey out all shop icons
-            item.GetComponent<SpriteRenderer>().color = unselectedItemColour;
+            shopItems[i].GetComponent<SpriteRenderer>().color = unselectedItemColour[i];
         }
         // Make selected shop item full colour
         GetComponent<SpriteRenderer>().color = Color.white;

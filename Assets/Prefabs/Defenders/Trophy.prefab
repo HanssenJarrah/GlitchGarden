@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   starPrefab: {fileID: 686590177699891263, guid: f6d99c900662d5940845c867dc92fbcb, type: 3}
-  spawnWaitTime: 10
+  spawnWaitTime: 8
 --- !u!61 &274086795
 BoxCollider2D:
   m_ObjectHideFlags: 0
