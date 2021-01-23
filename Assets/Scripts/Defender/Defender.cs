@@ -11,6 +11,7 @@ public class Defender : MonoBehaviour
 {
     // Configuration parameters
     [SerializeField] int price = 100;
+    [SerializeField] GameObject placementPreview;
 
     /// <summary>
     /// Gets the cost in stars to place this new defender.
@@ -19,5 +20,10 @@ public class Defender : MonoBehaviour
     public int GetStarCost()
     {
         return price;
+    }
+
+    public GameObject GetPreview()
+    {
+        return placementPreview;
     }
 }

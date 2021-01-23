@@ -29,6 +29,15 @@ public class StarDisplay : MonoBehaviour
     }
 
     /// <summary>
+    /// Returns the current number of stars the player has to spend.
+    /// </summary>
+    /// <returns> The players current amount of stars. </returns>
+    public int GetCurrentStars()
+    {
+        return currentStars;
+    }
+
+    /// <summary>
     /// Updates the visual display for the player of their current stars to match the
     /// number tracked internally.
     /// </summary>

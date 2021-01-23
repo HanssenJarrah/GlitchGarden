@@ -47,6 +47,19 @@ public class ShopItem : MonoBehaviour
     }
 
     /// <summary>
+    /// Deselect the current shop item and grey out all options.
+    /// </summary>
+    public void DeselectAll()
+    {
+        var shopItems = FindObjectsOfType<ShopItem>();
+        for (int i = 0; i < shopItems.Length; i++)
+        {
+            // Grey out all shop icons
+            shopItems[i].GetComponent<SpriteRenderer>().color = unselectedItemColour[i];
+        }
+    }
+
+    /// <summary>
     /// Allows this item to be selected from the shop when the player clicks it with the mouse.
     /// This method is called by Unity when the player releases the mouse button while over this
     /// game object's collider.

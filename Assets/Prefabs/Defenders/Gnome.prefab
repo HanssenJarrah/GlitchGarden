@@ -94,6 +94,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   price: 300
+  placementPreview: {fileID: 157353278013420799, guid: 10c81b5ee5edd1441a55dbd4469752c0, type: 3}
 --- !u!114 &157353278013420794
 MonoBehaviour:
   m_ObjectHideFlags: 0
