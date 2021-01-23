@@ -10,12 +10,16 @@ using UnityEngine.EventSystems;
 public class Star : MonoBehaviour
 {
     // Constants
-    [SerializeField] int starsToAdd = 50;
-    const float starSpeed = 10f;
+    const float INITIAL_SPEED = 2f;
+    const float PICKUP_SPEED = 20f;
     readonly Vector2 finalTargetPos = new Vector2(9.94f, 5.93f);
+
+    // Configuration parameters
+    [SerializeField] int starsToAdd = 50;
 
     // State variables
     bool moveStar = false;
+    float starSpeed;
     Vector2 targetPos;
     Collider colliderComponent;
     
@@ -30,6 +34,9 @@ public class Star : MonoBehaviour
         colliderComponent = GetComponent<BoxCollider>();
         colliderComponent.enabled = false;
 
+        starSpeed = INITIAL_SPEED;
+
+        // Dimensions of the play space
         float xPos = Random.Range(3f, 9f);
         float yPos = Random.Range(1f, 5f);
         targetPos = new Vector2(xPos, yPos);
@@ -62,14 +69,15 @@ public class Star : MonoBehaviour
 
     /// <summary>
     /// Called by Unity when the mouse cursor moves over the collider component attached to
-    /// this game object.
+    /// this game object. Sets the new target position and star speed.
     /// </summary>
     private void OnMouseOver()
     {
         FindObjectOfType<StarDisplay>().AddStars(starsToAdd);
         colliderComponent.enabled = false;
-        moveStar = true;
         targetPos = finalTargetPos;
+        starSpeed = PICKUP_SPEED;
+        moveStar = true;
     }
 
     /// <summary>

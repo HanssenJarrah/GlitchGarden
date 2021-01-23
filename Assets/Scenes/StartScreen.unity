@@ -587,8 +587,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 602.19977, y: -501.83}
-  m_SizeDelta: {x: 715.61, y: 70.5521}
+  m_AnchoredPosition: {x: 535.09, y: -501.83}
+  m_SizeDelta: {x: 849.83, y: 70.5521}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &756547995
 MonoBehaviour:
@@ -802,8 +802,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 602.20264, y: -464.04}
-  m_SizeDelta: {x: 715.6147, y: 70.5521}
+  m_AnchoredPosition: {x: 535.09106, y: -464.04}
+  m_SizeDelta: {x: 849.8377, y: 70.5521}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1309997290
 MonoBehaviour:
@@ -838,7 +838,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'All art assets are public domain and retrieved from:'
+  m_Text: 'All music and art assets are public domain and retrieved from:'
 --- !u!222 &1309997291
 CanvasRenderer:
   m_ObjectHideFlags: 0
