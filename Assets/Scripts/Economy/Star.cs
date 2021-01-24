@@ -10,6 +10,10 @@ using UnityEngine.EventSystems;
 public class Star : MonoBehaviour
 {
     // Constants
+    const float MAX_X = 9f;
+    const float MIN_X = 3f;
+    const float MAX_Y = 5f;
+    const float MIN_Y = 1f;
     const float INITIAL_SPEED = 2f;
     const float PICKUP_SPEED = 20f;
     readonly Vector2 finalTargetPos = new Vector2(9.94f, 5.93f);
@@ -37,8 +41,8 @@ public class Star : MonoBehaviour
         starSpeed = INITIAL_SPEED;
 
         // Dimensions of the play space
-        float xPos = Random.Range(3f, 9f);
-        float yPos = Random.Range(1f, 5f);
+        float xPos = Random.Range(MIN_X, MAX_X);
+        float yPos = Random.Range(MIN_Y, MAX_Y);
         targetPos = new Vector2(xPos, yPos);
     }
 

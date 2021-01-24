@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 /// <summary>
 /// Script attached to each defender game object specifying certain attributes such
@@ -22,6 +23,10 @@ public class Defender : MonoBehaviour
         return price;
     }
 
+    /// <summary>
+    /// Returns the object intended as the visual preview when placing this defender.
+    /// </summary>
+    /// <returns></returns>
     public GameObject GetPreview()
     {
         return placementPreview;

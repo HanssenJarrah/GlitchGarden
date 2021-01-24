@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 
 /// <summary>
@@ -29,6 +30,19 @@ public class DefenderPlacement : MonoBehaviour
     {
         CheckSecondaryMouseButtonDown();
         ShowDefenderPreview();
+    }
+
+    /// <summary>
+    /// Deselect defender to place if secondary mouse button clicked.
+    /// </summary>
+    private void CheckSecondaryMouseButtonDown()
+    {
+        if (Input.GetMouseButtonDown(1))
+        {
+            FindObjectOfType<ShopItem>().DeselectAll();
+            defender = null;
+            Destroy(defenderPreview);
+        }
     }
 
     /// <summary>
@@ -71,18 +85,6 @@ public class DefenderPlacement : MonoBehaviour
         }
     }
 
-    /// <summary>
-    /// Deselect defender to place if secondary mouse button clicked.
-    /// </summary>
-    private void CheckSecondaryMouseButtonDown()
-    {
-        if (Input.GetMouseButtonDown(1))
-        {
-            FindObjectOfType<ShopItem>().DeselectAll();
-            defender = null;
-            Destroy(defenderPreview);
-        }
-    }
 
     /// <summary>
     /// Called by Unity when the mouse cursor enters the collider attached to this game object.
@@ -93,8 +95,18 @@ public class DefenderPlacement : MonoBehaviour
         if (defender != null)
         {
             GameObject preview = defender.GetPreview();
-            defenderPreview = Instantiate(preview, preview.transform.position, preview.transform.rotation);
-            defenderPreview.SetActive(true);
+            if (!defender.GetComponent<DefenderRemover>())   // If the preview is a defender and not the destroyer
+            {
+                defenderPreview = Instantiate(preview, preview.transform.position, preview.transform.rotation);
+                defenderPreview.SetActive(true);
+            }
+            else
+            {
+                if (!FindObjectOfType<DefenderRemover>()) { // Check that a defender remover doesn't exist already
+                    DefenderRemover defenderRemover = (DefenderRemover)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/CoreGame/DefenderRemover.prefab", typeof(DefenderRemover));
+                    Instantiate(defenderRemover, Vector3.zero, Quaternion.identity); 
+                }
+            }
         }
     }
 
@@ -161,6 +173,7 @@ public class DefenderPlacement : MonoBehaviour
     private void AttemptDefenderPlacement(Vector2 placementPos)
     {
         if(defender == null) { return; }    // If no defender is selected
+        if (defender.GetComponent<DefenderRemover>()) { return; }
 
         StarDisplay starDisplay = FindObjectOfType<StarDisplay>();
         int defenderCost = defender.GetStarCost();
