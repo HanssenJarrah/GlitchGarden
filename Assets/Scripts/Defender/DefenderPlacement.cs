@@ -12,6 +12,7 @@ public class DefenderPlacement : MonoBehaviour
     // Configuration parameters
     Color32 cannotPlaceColour = new Color32(255, 35, 35, 128);
     Color32 normalPreviewColour = new Color32(128, 128, 128, 128);
+    [SerializeField] DefenderRemover defenderRemoverPrefab;
 
     // State variables
     Defender defender;
@@ -103,8 +104,7 @@ public class DefenderPlacement : MonoBehaviour
             else
             {
                 if (!FindObjectOfType<DefenderRemover>()) { // Check that a defender remover doesn't exist already
-                    DefenderRemover defenderRemover = (DefenderRemover)AssetDatabase.LoadAssetAtPath("Assets/Prefabs/CoreGame/DefenderRemover.prefab", typeof(DefenderRemover));
-                    Instantiate(defenderRemover, Vector3.zero, Quaternion.identity); 
+                    Instantiate(defenderRemoverPrefab, Vector3.zero, Quaternion.identity);
                 }
             }
         }

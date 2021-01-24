@@ -70,3 +70,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517117fe08b74784ba2f1e4462ff3a8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defenderRemoverPrefab: {fileID: 6597907870264117374, guid: 3da5fd1bed40861439338aaac575e5c4, type: 3}

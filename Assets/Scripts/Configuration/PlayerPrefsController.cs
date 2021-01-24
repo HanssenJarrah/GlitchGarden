@@ -10,14 +10,6 @@ public class PlayerPrefsController : MonoBehaviour
     const float MAX_VOLUME = 1f;
     public const float DEFAULT_MASTER_VOLUME = 0.8f;
 
-    private void Awake()
-    {
-        if (!PlayerPrefs.HasKey(MASTER_VOLUME_KEY)) // If this preference has never been set
-        {
-            PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, DEFAULT_MASTER_VOLUME);
-        }
-    }
-
     public static void SetMasterVolume(float volume)
     {
         if (volume >= MIN_VOLUME && volume <= MAX_VOLUME)
@@ -31,6 +23,11 @@ public class PlayerPrefsController : MonoBehaviour
 
     public static float GetMasterVolume()
     {
+        if (!PlayerPrefs.HasKey(MASTER_VOLUME_KEY)) // If this preference has never been set
+        {
+            PlayerPrefs.SetFloat(MASTER_VOLUME_KEY, DEFAULT_MASTER_VOLUME);
+        }
+
         float volume = PlayerPrefs.GetFloat(MASTER_VOLUME_KEY);
         if(volume >= MIN_VOLUME && volume <= MAX_VOLUME)
         {
